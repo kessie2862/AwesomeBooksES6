@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Awesome Books</a>
+      <ul>
+        <li><a href="#book-list" class="active">List</a></li>
+        <li><a href="#add-book-form">Add new</a></li>
+        <li><a href="#contact-info">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Displaying the current date and time -->
+    <section id="current-time">
+      <p id="datetime"></p>
+    </section>
+
+    <main>
+      <section id="book-list" class="content-section"></section>
+
+      <section id="add-book-form" class="content-section hidden">
+        <h1>Add a new book</h1>
+        <form>
+          <input type="text" id="title" placeholder="Title" />
+          <span id="titleError"></span>
+
+          <input type="text" id="author" placeholder="Author" />
+
+          <span id="authorError"></span>
+
+          <button type="submit" id="add-button">Add book</button>
+        </form>
+      </section>
+
+      <section id="contact-info" class="content-section hidden">
+        <h2>Contact Information</h2>
+        <h3>
+          We can help. Out team of experts is on hand to answer your questions.
+          You can contact us by using the info below.
+        </h3>
+        <ul>
+          <li>Our email: pierres717@gmail.com</li>
+          <li>Our phone: +233(0)551627120</li>
+          <li>Our address: Bonds Square. Accra, Ghana.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Add a section to display the current date and time -->
+    <section id="current-time">
+      <p id="datetime"></p>
+    </section>
+
+    <footer>
+      <p>&copy2023 Prosper Kessie.</p>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
