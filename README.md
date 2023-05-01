@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://kessie2862.github.io/Awesome-books/)
+- [Live Demo Link](https://kessie2862.github.io/AwesomeBooksES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ If you like this project, follow me to see all my projects in the future
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Kudos to [Supreeti Kushwaha](https://github.com/supreeti) for her great contribution to this project.
+Kudos to Microverse for the opportunity to learn software development.
 
 <!-- LICENSE -->
 
